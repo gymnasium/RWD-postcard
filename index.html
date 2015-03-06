@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/modern.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RWD Breakpoint Basics</title>
+	<meta name="author" content="Aquent Gymnasium">
+	<meta name="designer" content="Justin Gagne">
+	<!--[if IE]>
+		<script src="js/html5shim.js" async></script>
+		<script src="js/respond.js" async></script>
+	<![endif]-->
+</head>
+<body>
+
+<header class="banner" id="header" role="banner">
+	<div class="framework">
+		<h1>RWD Breakpoint Basics</h1>
+	</div>
+</header>
+
+<figure class="framework" id="breakpoints" role="main">
+
+	<figcaption class="caption">
+		<h1 class="note">Media Queries for Popular Devices</h1>
+		<p class="disclaimer"><strong>Remember, these are just four out of many.</strong> <em>Good responsive designers and developers will modify these breakpoints as needed!</em></p>
+	</figcaption>
+
+<table class="table-mq" id="media-queries">
+
+<colgroup>
+	<col class="layout">
+</colgroup>
+<colgroup>
+	<col class="mq phone">
+	<col class="mq tablet">
+	<col class="mq laptop">
+	<col class="mq desktop">
+</colgroup>
+<thead>
+	<tr>
+		<td></td>
+		<th class="device icon-phone" scope="col"><span>Smartphone</span></th>
+		<th class="device icon-tablet" scope="col"><span>Tablet</span></th>
+		<th class="device icon-laptop" scope="col"><span>Laptop</span></th>
+		<th class="device icon-desktop" scope="col"><span>Desktop</span></th>
+	</tr>
+</thead>
+<tbody>
+	<tr class="portrait">
+		<th class="mode" scope="row"><span>Portrait</span></th>
+		<td class="samp-code phone">
+	<pre>
+<code>
+<span class="comment">/* Smartphone
+(portrait) --- */</span>
+@media only screen
+and (max-device-width: 20em) {
+}
+</code>
+	</pre>	
+		</td>
+		<td class="samp-code tablet">
+	<pre>
+<code>
+<span class="comment">/* Tablet
+(portrait) --- */</span>
+@media only screen
+and (min-device-width: 48em)
+and (max-device-width: 64em)
+and (orientation: portrait) {
+}
+</code>
+	</pre>		
+		</td>
+		<td class="n-a">n/a</td>
+		<td class="n-a">n/a</td>
+	</tr>
+	<tr class="landscape">
+		<th class="mode" scope="row"><span>Landscape</span></th>
+		<td class="samp-code phone">
+	<pre>
+<code>
+<span class="comment">/* Smartphone
+(landscape) --- */</span>
+@media only screen
+and (min-width: 20.1em)
+and (orientation: landscape) {
+}
+</code>
+	</pre>	
+		</td>
+		<td class="samp-code tablet">
+	<pre>
+<code>
+<span class="comment">/* Tablet
+(landscape) --- */</span>
+@media only screen
+and (min-device-width: 48em)
+and (max-device-width: 64em)
+and (orientation: landscape) {
+}
+</code>
+	</pre>		
+		</td>
+		<td class="samp-code laptop">
+	<pre>
+<code>
+<span class="comment">/* Laptop & Desktop --- */</span>
+@media only screen
+and (min-width: 76.5em) {
+}		
+</code>
+	</pre>
+		</td>
+		<td class="samp-code desktop">
+	<pre>
+<code>
+<span class="comment">/* Desktop & Beyond --- */</span>
+@media only screen
+and (min-width: 114em) {
+}
+</code>
+	</pre>
+		</td>
+	</tr>
+	<tr class="both">
+		<th class="mode" scope="row"><span>Both</span></th>
+		<td class="samp-code phone">
+	<pre>
+<code>
+<span class="comment">/* Smartphone
+(portrait & landscape) --- */</span>
+@media only screen
+and (min-device-width: 20em)
+and (max-device-width: 30em) {
+}
+</code>
+	</pre>	
+		</td>
+		<td class="samp-code tablet">
+	<pre>
+<code>
+<span class="comment">/* Tablet
+(portrait & landscape) --- */</span>
+@media only screen
+and (min-device-width: 48em)
+and (max-device-width: 64em) {
+}
+</code>
+	</pre>		
+		</td>
+		<td class="n-a">n/a</td>
+		<td class="n-a">n/a</td>
+	</tr>
+</tbody>
+
+</table>
+
+</figure>
+
+<div id="learn" role="note">
+	<div class="framework">
+		<h2><a href="http://gymnasium.aquent.com">Learn Responsive Web Design (& More) for Free at <strong>gymnasium.aquent.com</strong></a></h2>
+	</div>
+</div>
+ 
+</body>
+</html>
