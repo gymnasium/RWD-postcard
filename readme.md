@@ -1,5 +1,7 @@
 [![Gymnasium Logo](https://cdn.rawgit.com/gymnasium/gymnasium.github.io/master/assets/GYM-logo.svg)](http://www.thegymnasium.com)
 
+![Media Query Samples](https://cdn.rawgit.com/gymnasium/RWD-postcard/master/images/Gym-Flyer-Back.png)
+
 # Postcard: Media Queries for Popular Devices
 
 Last year we made a postcard to give to attendees at Internet Week NY. We really didn't want to make just-another-piece-of-marketing-collateral that would end up in the trash, so instead of just being all blah blah marketing-y, we figured we'd put something useful on one side!
@@ -118,4 +120,4 @@ and (min-width: 114em) {
 }
 ```
 
-
+![Free courses at www.thegymnasium.com](https://cdn.rawgit.com/gymnasium/RWD-postcard/master/images/Gym-Flyer-Front.png)
