@@ -1,4 +1,4 @@
-![Gymnasium Logo](https://cdn.rawgit.com/gymnasium/gymnasium.github.io/master/assets/GYM-logo.svg)
+[![Gymnasium Logo](https://cdn.rawgit.com/gymnasium/gymnasium.github.io/master/assets/GYM-logo.svg)](http://www.thegymnasium.com)
 
 # Postcard: Media Queries for Popular Devices
 
